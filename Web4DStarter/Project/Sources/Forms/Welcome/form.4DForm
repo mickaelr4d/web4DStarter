@@ -1,0 +1,105 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Welcome",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 731,
+					"height": 162,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "#2F2F2F",
+					"stroke": "transparent"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"text": "Exemple d'application proposant une interface Web",
+					"top": 11,
+					"left": 9,
+					"width": 708,
+					"height": 16,
+					"fontWeight": "bold",
+					"stroke": "#c0c0c0",
+					"textAlign": "center"
+				},
+				"Texte1": {
+					"type": "text",
+					"text": "Le serveur Web de 4D est lancé sur le port :",
+					"top": 60,
+					"left": 29,
+					"width": 277,
+					"height": 16,
+					"stroke": "#c0c0c0"
+				},
+				"Zone de saisie": {
+					"type": "input",
+					"left": 316,
+					"top": 59,
+					"width": 109,
+					"height": 17,
+					"dataSource": "Form:C1466.portNumber",
+					"enterable": false
+				},
+				"Texte2": {
+					"type": "text",
+					"text": "Pour accéder directement à votre site Web :",
+					"top": 100,
+					"left": 29,
+					"width": 277,
+					"height": 16,
+					"stroke": "#c0c0c0"
+				},
+				"Bouton": {
+					"type": "button",
+					"text": "Cliquez ici",
+					"top": 96,
+					"left": 316,
+					"width": 126,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton.4dm"
+				}
+			}
+		}
+	],
+	"method": "method.4dm"
+}

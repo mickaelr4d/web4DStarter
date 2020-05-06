@@ -1,0 +1,38 @@
+#--------------------------------
+# Ignore invisible files/folders
+#--------------------------------
+.*
+!.git*
+.git/
+
+#--------------------------------
+# Ignore derived data
+#--------------------------------
+Web4DStarter/Project/DerivedData/
+
+#--------------------------------
+# Ignore logs
+#--------------------------------
+Logs/
+
+#--------------------------------
+# Ignore settings & preferences
+#--------------------------------
+userPreferences.*/
+Settings/
+#!buildApp.4DSettings
+Preferences/
+
+#--------------------------------
+# Miscellaneous
+#--------------------------------
+*__Orphan__*
+*symbols.txt
+ehthumbs.db
+Thumbs.db
+
+#--------------------------------
+# Added by user
+#--------------------------------
+Resources/php.ini
+*.journal
