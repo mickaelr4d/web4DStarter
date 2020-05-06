@@ -1,0 +1,17 @@
+body {
+	font-family: Verdana;
+	color: #222222;
+	background-color: #dddddd;
+}
+
+h2 {
+	background-color: #666666;
+	color: #dddddd;
+}
+
+.button {
+	background-color: #666666;
+	color: #dddddd;
+	padding: 4px;
+	text-decoration: none;
+}
